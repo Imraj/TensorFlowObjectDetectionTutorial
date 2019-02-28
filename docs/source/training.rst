@@ -107,7 +107,7 @@ I won't be covering a tutorial on how to use ``labelImg``, but you can have a lo
 
 Once you have finished annotating your image dataset, it is a general convention to use only part of it for training, and the rest is used for testing purposes. Typically, the ratio is 90%/10%, i.e. 90% of the images are used for training and the rest 10% is maintained for testing, but you can chose whatever ratio suits your needs. 
 
-Once you have decided how you will be splitting your dataset, copy all training images, together with their corresponding ``*.xml`` files, and place them inside the ``training_demo\images\train`` folder. Similarly, copy all testing images, with their ``*.xml`` files, and paste them inside ``training_demo\images\train``.
+Once you have decided how you will be splitting your dataset, copy all training images, together with their corresponding ``*.xml`` files, and place them inside the ``training_demo\images\train`` folder. Similarly, copy all testing images, with their ``*.xml`` files, and paste them inside ``training_demo\images\test``.
 
 Creating Label Map
 ~~~~~~~~~~~~~~~~~~
